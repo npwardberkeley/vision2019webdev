@@ -3,10 +3,10 @@
 	<head>
 		<title>Lesson 3 Practice</title>
 		<style>
-			.border {
+			.normalborder {
 				border: 1px solid #000;
 			}
-			.padding {
+			.spacing {
 				padding: 6px;
 			}
 		</style>
@@ -22,11 +22,11 @@
 			<li>Make this paragraph underlined:</li>
 			<p>I'm a paragraph!</p>
 			
-			<li>Change this paragraph's font:</li>
+			<li>Change this paragraph's font to sans-serif:</li>
 			<p>I'm a paragraph!</p>
 
 			<li>Make all the paragraphs inside this div bold:</li>
-			<div>
+			<div class="normalborder spacing">
 				I'm a div!
 				<p>I'm a paragraph!</p>
 				<p>I'm a paragraph!</p>
@@ -34,22 +34,24 @@
 				<p>I'm a paragraph!</p>
 			</div>
 
-			<li>Make all the paragraphs that are direct children of this div bold:</li>
-			<div class="border padding">
+			<li>Make all the paragraphs that are <em>direct children</em> of this div bold:</li>
+			<div class="normalborder spacing">
 				I'm a div!
 				<p>I'm a paragraph!</p>
-				<div class="border padding">
+				<div class="normalborder spacing">
 					I'm another div!
 					<p>I'm a paragraph!</p>
 					<p>I'm a paragraph!</p>
 				</div>
 				<p>I'm a paragraph!</p>
 			</div>
+			<br />
 
 			<li>Give this div a nice, blue, rounded border:</li>
+			<br />
 			<div>I'm a div without a nice, blue, rounded border!</div>
 
-			<li>Do all of that without using &lt;style&gt; tags!</li>
+			<li>Add styling to your personal website! Make it look nicer, however you'd like. If you want an extra challenge, pick some website whose style you admire and do your best to imitate it on your site</li>
 		</ul>
 	</body>
 </html>
